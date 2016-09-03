@@ -6,6 +6,6 @@ jdk:
 notifications:
   email:
     recipients:
-      - bgs@cin.ufpe.br
+      - bgsc777@gmail.com
       - brunojee@hotmail.com
     on_success: always
