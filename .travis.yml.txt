@@ -7,4 +7,5 @@ notifications:
   email:
     recipients:
       - bgs@cin.ufpe.br
+      - brunojee@hotmail.com
     on_success: always
