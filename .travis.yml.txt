@@ -1,10 +1,14 @@
 language: java
 
 jdk:
-  - openjdk7
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk6
 
-notifications:
+    notifications:
+      slack:
+        on_success: always
+
   email:
-    recipients:
-      - bgs@cin.ufpe.br
-    on_success: always
+    - bgs@cin.ufpe.br
+    - brunojee@hotmail.com
