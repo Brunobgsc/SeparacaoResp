@@ -5,16 +5,9 @@ jdk:
   - oraclejdk7
   - openjdk6
 
-install: ant deps
-
-script:
-    - ant test
-
-    notifications:
-      
+notifications:
   email:
-    - bgs@cin.ufpe.br
-    - brunojee@hotmail.com
-
-    slack:
-     on_success: always
+    recipients:
+      - bgs@cin.ufpe.br
+      - brunojee@hotmail.com
+    on_success: always
